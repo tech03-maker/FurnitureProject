@@ -3,7 +3,6 @@ import "./Home.css";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faBars } from '@fortawesome/free-solid-svg-icons';
 
-
 function Home() {
   const [activeLink, setActiveLink] = useState("Home");
 
@@ -35,7 +34,9 @@ function Home() {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a
-                  className={`nav-link ${activeLink === "Home" ? "active" : ""}`}
+                  className={`nav-link ${
+                    activeLink === "Home" ? "active" : ""
+                  }`}
                   aria-current="page"
                   href="#"
                   onClick={() => handleNavLinkClick("Home")}
@@ -45,20 +46,37 @@ function Home() {
               </li>
               <li className="nav-item">
                 <a
-                  className={`nav-link ${activeLink === "Features" ? "active" : ""}`}
+                  className={`nav-link ${
+                    activeLink === "Tables" ? "active" : ""
+                  }`}
                   href="#"
-                  onClick={() => handleNavLinkClick("Features")}
+                  onClick={() => handleNavLinkClick("Tables")}
                 >
-                  Features
+                  Tables
                 </a>
               </li>
+
               <li className="nav-item">
                 <a
-                  className={`nav-link ${activeLink === "Pricing" ? "active" : ""}`}
+                  className={`nav-link ${
+                    activeLink === "Chairs" ? "active" : ""
+                  }`}
                   href="#"
-                  onClick={() => handleNavLinkClick("Pricing")}
+                  onClick={() => handleNavLinkClick("Chairs")}
                 >
-                  Pricing
+                  Chairs
+                </a>
+              </li>
+
+              <li className="nav-item">
+                <a
+                  className={`nav-link ${
+                    activeLink === "Dining" ? "active" : ""
+                  }`}
+                  href="#"
+                  onClick={() => handleNavLinkClick("Dining")}
+                >
+                  Dining Sets
                 </a>
               </li>
             </ul>

@@ -1,0 +1,13 @@
+h3 {
+  font-size: 3rem !important;
+  font-weight: bolder;
+}
+
+p {
+  font-size: 20px;
+}
+
+img {
+  width: 100%;
+  border-radius: 40px;
+}
