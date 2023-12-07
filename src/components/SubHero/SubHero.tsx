@@ -24,13 +24,14 @@ export const SubHero = () => {
           <div className="card">
             <img src={Table} className="card" alt="" />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">Marble Table</h5>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Set the scene with our versatile tables, where sophistication
+                meets practicality. Transform your space with timeless pieces
+                that enhance every moment.
               </p>
-              <a href="#" className="btn btn-primary">
-                Go somewhere
+              <a href="#" className="btn">
+                Order Now
               </a>
             </div>
           </div>
@@ -39,13 +40,14 @@ export const SubHero = () => {
           <div className="card">
             <img src={Table2} className="card" alt="" />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">Decorated Table</h5>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                From casual dinners to memorable gatherings – our tables are the
+                centerpiece of your home, offering unmatched quality and
+                enduring style.
               </p>
-              <a href="#" className="btn btn-primary">
-                Go somewhere
+              <a href="#" className="btn">
+                Order Now
               </a>
             </div>
           </div>
@@ -54,13 +56,14 @@ export const SubHero = () => {
           <div className="card">
             <img src={Table3} className="card" alt="" />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">Tushy Table</h5>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Crafted for conversations. Discover tables that bring both form
+                and function to your space, creating a perfect setting for every
+                occasion.
               </p>
-              <a href="#" className="btn btn-primary">
-                Go somewhere
+              <a href="#" className="btn">
+                Order Now
               </a>
             </div>
           </div>
@@ -69,13 +72,13 @@ export const SubHero = () => {
           <div className="card">
             <img src={Table4} className="card" alt="" />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">Ceramic Table</h5>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Gather 'round in style! Our elegant tables redefine dining
+                experiences, blending functionality with exquisite design.
               </p>
-              <a href="#" className="btn btn-primary">
-                Go somewhere
+              <a href="#" className="btn">
+                Order Now
               </a>
             </div>
           </div>
