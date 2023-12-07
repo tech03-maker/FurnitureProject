@@ -84,7 +84,7 @@ export const SubHero = () => {
           </div>
         </div>
       </div>
-      <nav>
+      <nav className="mt-5">
         <ol className="breadcrumb">
           <li className="breadcrumb-item">
             <a href="#">Home</a>
@@ -161,7 +161,7 @@ export const SubHero = () => {
           </div>
         </div>
       </div>
-      <nav>
+      <nav className="mt-5">
         <ol className="breadcrumb">
           <li className="breadcrumb-item">
             <a href="#">Home</a>
