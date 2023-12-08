@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 export const Dining = () => {
   return (
     <Fragment>
-        <Home />
+      <Home />
       <div className="container">
         <nav className="mt-5">
           <ol className="breadcrumb">
