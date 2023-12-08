@@ -4,7 +4,7 @@ import { Hero } from "./components/HeroFolder/Hero";
 import { Tables } from "./components/Tables/Tables";
 import { Chair } from "./components/Chair/Chair";
 import { Dining } from "./components/Dining/Dining";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 // import {library} from "@fortawesome/fontawesome-svg-core"
 // import {faw} from "@fortawesome/fontawesome-svg-core"
 // library.add(faBars)
