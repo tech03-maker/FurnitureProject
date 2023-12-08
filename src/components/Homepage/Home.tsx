@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Home.css";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { Link } from "react-router-dom";
 
 function Home() {
   const [activeLink, setActiveLink] = useState("Home");
@@ -33,51 +32,51 @@ function Home() {
           <div className="collapse navbar-collapse" id="navbarText">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a
+                <Link
                   className={`nav-link ${
                     activeLink === "Home" ? "active" : ""
                   }`}
                   aria-current="page"
-                  href="#"
+                  to="#"
                   onClick={() => handleNavLinkClick("Home")}
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
                   className={`nav-link ${
                     activeLink === "Tables" ? "active" : ""
                   }`}
-                  href="#"
+                  to="#"
                   onClick={() => handleNavLinkClick("Tables")}
                 >
                   Tables
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item">
-                <a
+                <Link
                   className={`nav-link ${
                     activeLink === "Chairs" ? "active" : ""
                   }`}
-                  href="#"
+                  to="#"
                   onClick={() => handleNavLinkClick("Chairs")}
                 >
                   Chairs
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item">
-                <a
+                <Link
                   className={`nav-link ${
                     activeLink === "Dining" ? "active" : ""
                   }`}
-                  href="#"
+                  to="#"
                   onClick={() => handleNavLinkClick("Dining")}
                 >
                   Dining Sets
-                </a>
+                </Link>
               </li>
             </ul>
             <span className="navbar-text">
