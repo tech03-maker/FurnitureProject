@@ -3,11 +3,25 @@ import Table9 from "../../assets/image/image 45.jpg";
 import Table10 from "../../assets/image/image7.jpg";
 import Table11 from "../../assets/image/image8.jpg";
 import Table12 from "../../assets/image/image14.jpg";
+import Home from "../Homepage/Home";
+import { Link } from "react-router-dom";
 
 export const Dining = () => {
   return (
     <Fragment>
+        <Home />
       <div className="container">
+        <nav className="mt-5">
+          <ol className="breadcrumb">
+            <li className="breadcrumb-item">
+              <Link to="/">Home</Link>
+            </li>
+            <li className="breadcrumb-item active" aria-current="page">
+              Dining Tables
+            </li>
+          </ol>
+        </nav>
+        <hr />
         <div className="row">
           <div className="col-12 col-sm-2 col-md-3 col-lg-3 mb-3">
             <div className="card">

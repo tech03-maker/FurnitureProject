@@ -4,29 +4,19 @@ import { Hero } from "./components/HeroFolder/Hero";
 import { Tables } from "./components/Tables/Tables";
 import { Chair } from "./components/Chair/Chair";
 import { Dining } from "./components/Dining/Dining";
-import { Routes, Route } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // import {library} from "@fortawesome/fontawesome-svg-core"
 // import {faw} from "@fortawesome/fontawesome-svg-core"
 // library.add(faBars)
 
 function App() {
-  return (
-    <div>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/tables" element={<Tables />} />
-        <Route path="/hero" element={<Hero />} />
-        <Route path="/chair" element={<Chair />} />
-        <Route path="/dining" element={<Dining />} />
-      </Routes>
-
-      {/* <Home /> */}
-      <Hero />
-      <Tables />
-      <Chair />
-      <Dining />
-    </div>
-  );
+  const route = createBrowserRouter([
+    { path: "/", element: <Home /> },
+    { path: "/dining", element: <Dining /> },
+    {path: "/tables", element: <Tables />},
+    {path: "/chair", element: <Chair/>}
+  ]);
+  return <RouterProvider router={route} />;
 }
 
 export default App;

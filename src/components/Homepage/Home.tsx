@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./Home.css";
 import { Link } from "react-router-dom";
+import "../HeroFolder/Hero.css";
+import { Hero } from "../HeroFolder/Hero";
 
 function Home() {
   const [activeLink, setActiveLink] = useState("Home");
@@ -37,7 +39,7 @@ function Home() {
                     activeLink === "Home" ? "active" : ""
                   }`}
                   aria-current="page"
-                  to="#"
+                  to="/Home"
                   onClick={() => handleNavLinkClick("Home")}
                 >
                   Home
@@ -48,7 +50,7 @@ function Home() {
                   className={`nav-link ${
                     activeLink === "Tables" ? "active" : ""
                   }`}
-                  to="#"
+                  to="/tables"
                   onClick={() => handleNavLinkClick("Tables")}
                 >
                   Tables
@@ -60,7 +62,7 @@ function Home() {
                   className={`nav-link ${
                     activeLink === "Chairs" ? "active" : ""
                   }`}
-                  to="#"
+                  to="/chair"
                   onClick={() => handleNavLinkClick("Chairs")}
                 >
                   Chairs
@@ -72,7 +74,7 @@ function Home() {
                   className={`nav-link ${
                     activeLink === "Dining" ? "active" : ""
                   }`}
-                  to="#"
+                  to="/dining"
                   onClick={() => handleNavLinkClick("Dining")}
                 >
                   Dining Sets
@@ -87,6 +89,7 @@ function Home() {
           </div>
         </div>
       </nav>
+      <Hero />
     </div>
   );
 }

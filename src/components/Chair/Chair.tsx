@@ -3,15 +3,18 @@ import Table5 from "../../assets/image/image20.jpg";
 import Table6 from "../../assets/image/image22.jpg";
 import Table7 from "../../assets/image/image28.jpg";
 import Table8 from "../../assets/image/image30.jpg";
+import { Link } from "react-router-dom";
+import Home from "../Homepage/Home";
 
 export const Chair = () => {
   return (
     <Fragment>
+        <Home />
         <div className="container">
           <nav className="mt-5">
             <ol className="breadcrumb">
               <li className="breadcrumb-item">
-                <a href="#">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li className="breadcrumb-item active" aria-current="page">
                 Chairs
@@ -84,17 +87,7 @@ export const Chair = () => {
               </div>
             </div>
           </div>
-          <nav className="mt-5">
-            <ol className="breadcrumb">
-              <li className="breadcrumb-item">
-                <a href="#">Home</a>
-              </li>
-              <li className="breadcrumb-item active" aria-current="page">
-                Dining Tables
-              </li>
-            </ol>
-          </nav>
-          <hr />
+         
         </div>
     </Fragment>
   );

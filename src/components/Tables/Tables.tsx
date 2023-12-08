@@ -5,15 +5,18 @@ import Table2 from "../../assets/image/image43.jpg";
 import Table3 from "../../assets/image/image48.jpg";
 import Table4 from "../../assets/image/image2.jpg";
 import { Fragment } from "react";
+import { Link } from "react-router-dom";
+import Home from "../Homepage/Home";
 
 export const Tables = () => {
   return (
     <Fragment>
+      <Home />
       <div className="container mt-5">
         <nav>
           <ol className="breadcrumb">
             <li className="breadcrumb-item">
-              <a href="#">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li className="breadcrumb-item active" aria-current="page">
               Tables
