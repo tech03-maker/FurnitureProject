@@ -89,7 +89,7 @@ export const Dining = () => {
           </div>
         </div>
       </div>
-      <footer>
+      <footer className="mt-4">
         <span>All Right Reserved | Daemonex 2023</span>
       </footer>
     </Fragment>

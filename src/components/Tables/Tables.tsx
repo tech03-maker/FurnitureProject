@@ -90,7 +90,9 @@ export const Tables = () => {
           </div>
         </div>
       </div>
-      {/* <hr /> */}
+      <footer className="mt-4">
+        <span>All Right Reserved | Daemonex 2023</span>
+      </footer>
     </Fragment>
   );
 };
